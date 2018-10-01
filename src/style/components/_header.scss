@@ -1,0 +1,10 @@
+.header {
+  font-size: 1.4rem;
+  display:flex;
+  @include for-size(tablet-portrait-up){
+    font-size: 1.6rem;
+  }
+  @include for-size(desktop-up){
+    font-size: 2rem;
+  }
+}

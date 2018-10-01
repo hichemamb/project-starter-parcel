@@ -1,0 +1,25 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "starter",
+  "main": "src/index.js",
+  "author": "hichem",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.js"
+  },
+  "dependencies": {
+    "autoprefixer": "^8.0.0",
+    "flexboxgrid": "^6.3.1",
+    "hoek": "^5.0.3",
+    "node-sass": "^4.9.3",
+    "parcel-bundler": "^1.10.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.6.1",
+    "postcss-modules": "^1.1.0"
+  }
+}
